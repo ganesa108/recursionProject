@@ -1,0 +1,9 @@
+FUNCTION checkPalindrome
+BEGIN
+    if (str.length <= 1)
+    RETURN True;
+    if (first char == last char)
+    RETURN checkPalindrome(string - first char&last char)
+    else 
+    RETURN false
+END
